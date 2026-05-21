@@ -11,6 +11,8 @@ This extension adds my live server to zed
 - the codeaction opens in browser & shows which port it is running on
 
 ### How it works
+-after downloading--> go to your html file,do "Ctrl + .".
+-it will pop up "Open in Browser(random integers)" and click "enter"
 - server: file change/save => sends update info over websocket
 - css updates style tag, everything else reloads the page
 - planed: extension that reloads only when the src was actually loaded fom the server(its only possible to monitor all outgoing requests with a extension ;( )
